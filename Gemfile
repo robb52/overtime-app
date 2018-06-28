@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.0'
@@ -43,3 +43,4 @@ gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.10', '>= 5.10.5'
 gem 'twilio', '~> 3.1', '>= 3.1.1'
 gem 'dotenv-rails', '~> 2.4', :groups => [:development, :test]
+gem 'kaminari', :git => 'https://github.com/kaminari/kaminari.git'
