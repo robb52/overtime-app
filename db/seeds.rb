@@ -17,7 +17,7 @@ AdminUser.create(email: "admin@test.com",
 puts "1 Admin User created"
 
 AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
-AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 13.week))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
 AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
 
 puts "3 Aduit Logs have been created"
