@@ -44,3 +44,4 @@ gem 'twilio-ruby', '~> 5.10', '>= 5.10.5'
 gem 'twilio', '~> 3.1', '>= 3.1.1'
 gem 'dotenv-rails', '~> 2.4', :groups => [:development, :test]
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari.git'
+gem 'rails_12factor'
