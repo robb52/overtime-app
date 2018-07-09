@@ -1,9 +1,11 @@
 namespace :notification do
   desc "Sends SMS notification to employees asking them to log if they had overtime or not"
   task sms: :environment do
+    if Time.now.sunday?
    # User.all.each do |user|
    #   SmsTool.send_sms()
    # end
+    end 
   end
 
   desc "Sends mail notification to (admin users) each day to info of pending overtime request"
